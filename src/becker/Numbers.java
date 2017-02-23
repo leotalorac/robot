@@ -13,6 +13,6 @@ public class Numbers {
     public static void main(String [] args){
         Numberdiscover i = new Numberdiscover();
         i.scan();
-        i.count();
+        
     }
 }

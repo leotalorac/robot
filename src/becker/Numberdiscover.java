@@ -77,41 +77,4 @@ public class Numberdiscover {
                     this.luis.pickThing();                
                 }     
         }
-    }
-    public void count(){
-        int l=this.luis.countThingsInBackpack();
-        switch(l){
-            case  5:
-                System.out.print("1");
-                break;
-            case  11:
-                System.out.print("5");
-                break;    
-            case 12:
-                System.out.print("0");
-                break;
-            
-            case 14:
-                System.out.print("3");
-                break;
-            case  9:
-                System.out.print("4");
-                break;
-            case 11:
-                System.out.print("6");
-                break;
-            
-        
-        }
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-}
+    }}
